@@ -33,5 +33,5 @@ function move() {
   marquee.style.left = position + 'px';
   requestAnimationFrame(move);
 }
-
+console.log("Salut");
 move();

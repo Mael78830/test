@@ -1,10 +1,12 @@
 window.alert = function() {};
 
-let images = document.getElementsByTagName('img');
-for (let i = 0; i < images.length; i++) {
-  images[i].parentNode.removeChild(images[i]);
-}
-
+document.addEventListener('DOMContentLoaded', function() {
+    const images = document.getElementsByTagName('img');
+    while (images.length > 0) {
+      images[i].parentNode.removeChild(images[i]);
+    }
+  });
+  
 const body = document.querySelector('body');
 
 // Change la couleur de fond du body

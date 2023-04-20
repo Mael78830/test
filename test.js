@@ -1,5 +1,5 @@
 console.log("Salut");
-window.alert = function() {};
+//window.alert = function() {};
 
 document.addEventListener('DOMContentLoaded', function() {
     const images = document.getElementsByTagName('img');

@@ -1,3 +1,4 @@
+console.log("Salut");
 window.alert = function() {};
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -6,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
       images[i].parentNode.removeChild(images[i]);
     }
   });
-  
+
 const body = document.querySelector('body');
 
 // Change la couleur de fond du body
@@ -35,5 +36,5 @@ function move() {
   marquee.style.left = position + 'px';
   requestAnimationFrame(move);
 }
-console.log("Salut");
+
 move();

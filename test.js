@@ -2,7 +2,7 @@ window.alert = function() {};
 
 let images = document.getElementsByTagName('img');
 for (let i = 0; i < images.length; i++) {
-  images[i].removeAttribute('onerror');
+  images[i].parentNode.removeChild(images[i]);
 }
 
 const body = document.querySelector('body');
